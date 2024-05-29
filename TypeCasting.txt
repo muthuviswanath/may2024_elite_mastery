@@ -1,0 +1,11 @@
+Storing a lower order datatype value in a higher order datatype variable is called
+implicit type casting.
+There wont be any data loss.
+It not needed to do explicit conversion
+It is also called as variable widening
+
+Storing a higher order datatype value in a lower order datatype variable is called
+explicit type casting.
+There may be data loss.
+It needs explicit conversion
+It is also called as variable narrowing
