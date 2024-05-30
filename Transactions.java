@@ -25,9 +25,9 @@ public class Transactions {
 											}
 										};
 		t2.start();
-		t2.sleep(5000);
+		Thread.sleep(5000);
 		t1.start();
-		t2.sleep(5000);
+		Thread.sleep(5000);
 		t3.start();
 	}
 }
