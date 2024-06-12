@@ -132,14 +132,14 @@ public class Main {
 						};
 						t2.start();
 						try {
-							t2.sleep(5000);
+							Thread.sleep(5000);
 						} catch (InterruptedException e) {
 							// TODO Auto-generated catch block
 							e.printStackTrace();
 						}
 						t1.start();
 						try {
-							t2.sleep(5000);
+							Thread.sleep(5000);
 						} catch (InterruptedException e) {
 							// TODO Auto-generated catch block
 							e.printStackTrace();
