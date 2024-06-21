@@ -1,0 +1,24 @@
+Reflection:
+
+		It provides the ability to inspect and modify the runtime behavior of the application.
+		Class is an inbuilt class in java using which we inspect the interface,enums,get their
+		structures,methods,fields, construcotrs,etc.....
+		Using reflection we can create objects (without using new keyword)
+		
+		Junit -> uses reflection to parse @Test annotation to get the test methods and invoke them when needed
+		Spring -> DI
+		Tomcat -> Web container that is used to forward  the request to the module using web.xml
+		Eclipse -. AutoCompletion (Ctrl + Space)
+		Hibernate, Struts
+		
+		Can i make use of reflection in my normal application?
+		
+		No.
+		
+		Poor Performance
+		Security Restrictions
+		Security Issues
+		High Maintenance
+		
+		
+		
